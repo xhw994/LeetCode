@@ -13,6 +13,7 @@ namespace LeetCode
             Stack<int> st = new Stack<int>();
             foreach (string token in tokens)
             {
+                // TryParse is really inefficient, this code runs the slowest amongst all the C# submissions
                 if (int.TryParse(token, out int tmp))
                 {
                     st.Push(tmp);
