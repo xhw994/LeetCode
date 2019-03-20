@@ -13,7 +13,7 @@ namespace LeetCode
             Stack<int> st = new Stack<int>();
             foreach (string token in tokens)
             {
-                // TryParse is really inefficient, this code runs the slowest amongst all the C# submissions
+                // TryParse is not that inefficient
                 if (int.TryParse(token, out int tmp))
                 {
                     st.Push(tmp);
@@ -41,7 +41,6 @@ namespace LeetCode
                             throw new ArgumentException("Invalid RPN");
                     }
                 }
-                Console.WriteLine(st.Peek());
             }
             return st.Pop();
         }
