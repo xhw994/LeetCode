@@ -34,14 +34,30 @@ namespace LeetCode.Common
     {
         public static ListNode GenerateSinglyLinkedList(int length)
         {
-            ListNode head = new ListNode(0);
-            ListNode cur = head;
+            ListNode h = new ListNode(0);
+            ListNode c = h;
             for (int i = 1; i < length; i++)
             {
-                cur.next = new ListNode(i);
-                cur = cur.next;
+                c.next = new ListNode(i);
+                c = c.next;
             }
-            return head;
+            return h;
+        }
+
+        public static ListNode GenerateSinglyLinkedList(params int[] vals)
+        {
+            if (vals == null || vals.Length == 0)
+            {
+                return null;
+            }
+            ListNode h = new ListNode(vals[0]);
+            ListNode c = h;
+            for (int i = 1; i < vals.Length; i++)
+            {
+                c.next = new ListNode(vals[i]);
+                c = c.next;
+            }
+            return h;
         }
     }
 }
