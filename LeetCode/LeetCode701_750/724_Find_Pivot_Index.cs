@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace LeetCode
 {
@@ -8,7 +9,7 @@ namespace LeetCode
     {
         public static int PivotIndex(params int[] nums)
         {
-            if (nums == null || nums.Length == 0 || nums.Length == 2)
+            if (nums == null || nums.Length == 0)
             {
                 return -1;
             }
@@ -17,39 +18,17 @@ namespace LeetCode
                 return nums[0];
             }
 
-            int gt = Helper((int x, int y) => x > y);
-            if (gt != -1)
+            int lsum = 0, rsum = nums.Sum();
+            for (int i = 0; i < nums.Length; i++)
             {
-                return gt;
-            }
-            int lt = Helper((int x, int y) => x < y);
-            if (lt != -1)
-            {
-                return lt;
+                rsum -= nums[i];
+                if (lsum == rsum)
+                {
+                    return i;
+                }
+                lsum += nums[i];
             }
             return -1;
-
-
-            int Helper(Func<int, int, bool> comp)
-            {
-                int head = 0, tail = nums.Length - 1;
-                int hsum = nums[0], tsum = nums[nums.Length - 1];
-
-                while (tail - head > 2)
-                {
-                    if (comp(hsum, tsum))
-                    {
-                        head++;
-                        hsum += nums[head];
-                    }
-                    else
-                    {
-                        tail--;
-                        tsum += nums[tail];
-                    }
-                }
-                return hsum == tsum ? head + 1 : -1;
-            }
         }
     }
 }
