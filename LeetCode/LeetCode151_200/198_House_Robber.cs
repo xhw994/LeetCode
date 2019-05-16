@@ -10,17 +10,17 @@ namespace LeetCode
     {
         public static int Rob(int[] nums)
         {
-            int max = 0, now = 0;
-            for (int i = 0; i < nums.Length - 1; i += 2)
+            if (nums == null || nums.Length == 0) return 0;
+            if (nums.Length == 1) return nums[0];
+
+            int l2 = nums[0], l1 = Math.Max(nums[0], nums[1]), l0 = l1;
+            for (int i = 2; i < nums.Length; i++)
             {
-                if (nums[i + 1] > nums[i])
-                {
-                    i++;
-                }
-                now = Math.Max(now, nums[i]);
-                max = Math.Max(now, max);
+                l0 = Math.Max(nums[i] + l2, l1);
+                l2 = l1;
+                l1 = l0;
             }
-            return max;
-        }
+            return l0;
+        } 
     }
 }
