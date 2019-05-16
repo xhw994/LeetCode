@@ -11,32 +11,15 @@ namespace LeetCode
     {
         public static bool IsSymmetric(TreeNode root)
         {
-            if (root == null)
-            {
-                return true;
-            }
-            Queue<TreeNode> q = new Queue<TreeNode>();
-            q.Enqueue(root);
-            while (q.Count != 0)
-            {
-                int?[] lvl = new int?[q.Count];
-                for (int i = 0; i < q.Count; i++)
-                {
-                    TreeNode n = q.Dequeue();
-                    lvl[i] = n.val;
-                    q.Enqueue(n.left);
-                    q.Enqueue(n.right);
-                }
-                for (int i = 0; i < lvl.Length / 2; i++)
-                {
-                    if (lvl[i] != lvl[lvl.Length - 1 - i])
-                    {
-                        return false;
-                    }
-                }
-            }
+            return root == null || IsMirror(root.left, root.right);
 
-            return true;
+            bool IsMirror(TreeNode left, TreeNode right)
+            {
+                if (left == null && right == null) return true;
+                if (left != null && right != null && left.val == right.val &&
+                        IsMirror(left.left, right.right) && IsMirror(left.right, right.left)) return true;
+                return false;
+            }
         }
     }
 }
