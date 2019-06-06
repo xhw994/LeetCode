@@ -51,6 +51,9 @@
     <ClInclude Include="LeetCode151_200.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="LeetCode201_250.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\LeetCode\LeetCode51_100\54_Spiral_Matrix.cpp">
