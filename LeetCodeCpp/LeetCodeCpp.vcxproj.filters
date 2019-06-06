@@ -39,6 +39,15 @@
     <ClInclude Include="LeetCode551_600.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="LeetCode51_100.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeetCode101_150.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\LeetCode\LeetCode51_100\54_Spiral_Matrix.cpp">
