@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\LeetCode51_100">
+      <UniqueIdentifier>{35dd8ee0-0927-4ca4-9988-3230cddc6e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LeetCode551_600">
+      <UniqueIdentifier>{f8bc393c-4056-478b-a59e-4953ad25d313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LeetCode201_250">
+      <UniqueIdentifier>{535ca8d9-2ad2-467a-bd4c-1fb71bbac852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LeetCode451_500">
+      <UniqueIdentifier>{333e39df-986c-4a82-a401-cec575a1bdd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LeetCode151_200">
+      <UniqueIdentifier>{f35b820b-6818-41d9-b46d-87c266dbb754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LeetCode101_150">
+      <UniqueIdentifier>{2232902e-6215-4944-a55b-785a493e8095}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LeetCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeetCode551_600.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\LeetCode\LeetCode51_100\54_Spiral_Matrix.cpp">
+      <Filter>Source Files\LeetCode51_100</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode101_150\106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp">
+      <Filter>Source Files\LeetCode101_150</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode151_200\167_Two_Sum_II-Input_array_is_sorted.cpp">
+      <Filter>Source Files\LeetCode151_200</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode201_250\209_Minimum_Size_Subarray_Sum.cpp">
+      <Filter>Source Files\LeetCode201_250</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode451_500\485_Max_Consecutive_Ones.cpp">
+      <Filter>Source Files\LeetCode451_500</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode551_600\557_Reverse_Words_in_a_String_III.cpp">
+      <Filter>Source Files\LeetCode551_600</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode551_600\561_Array_Partition_I.cpp">
+      <Filter>Source Files\LeetCode551_600</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
