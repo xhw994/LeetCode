@@ -22,7 +22,7 @@ namespace LeetCode.Common
 
     public static partial class Test
     {
-        public static TreeNode GenerateBTree(int?[] vals)
+        public static TreeNode GenerateBinaryTree(params int?[] vals)
         {
             if (vals == null || vals.Length == 0 || vals[0] == null)
             {
@@ -35,19 +35,18 @@ namespace LeetCode.Common
                 return root;
             }
 
+            Queue<TreeNode> lvl = new Queue<TreeNode>();
+            lvl.Enqueue(root);
             int it = 1;
-            Queue<TreeNode> q = new Queue<TreeNode>();
-            q.Enqueue(root);
-            while (it != vals.Length)
+            while (lvl.Count != 0)
             {
-                for (int i = 0; i < q.Count; i++)
+                for (int i = 0; i < lvl.Count; i++)
                 {
-                    TreeNode n = q.Dequeue();
-                    n.left = vals[it] == null ? null : new TreeNode(vals[it].Value);
-                    n.right = vals[it + 1] == null ? null : new TreeNode(vals[it].Value);
-                    it += 2;
-                    q.Enqueue(n.left);
-                    q.Enqueue(n.right);
+                    TreeNode c = lvl.Dequeue();
+                    if (it != vals.Length)
+                    {
+
+                    }
                 }
             }
 
