@@ -168,6 +168,7 @@
     <ClCompile Include="..\LeetCode\LeetCode451_500\485_Max_Consecutive_Ones.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode51_100\54_Spiral_Matrix.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode551_600\557_Reverse_Words_in_a_String_III.cpp" />
+    <ClCompile Include="..\LeetCode\LeetCode551_600\560_Subarray_Sum_Equals_K.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode551_600\561_Array_Partition_I.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>

@@ -83,5 +83,8 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode551_600\560_Subarray_Sum_Equals_K.cpp">
+      <Filter>Source Files\LeetCode551_600</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
