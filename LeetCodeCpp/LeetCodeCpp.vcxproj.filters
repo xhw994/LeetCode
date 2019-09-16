@@ -31,6 +31,12 @@
     <Filter Include="Source Files\LeetCode101_150">
       <UniqueIdentifier>{2232902e-6215-4944-a55b-785a493e8095}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\LeetCode951_1000">
+      <UniqueIdentifier>{bf09e598-48e8-4352-80f7-e65afcbf60d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LeetCode1101_1150">
+      <UniqueIdentifier>{3598c973-b894-42d9-961f-97f1e4b5b899}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LeetCode.h">
@@ -55,6 +61,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LeetCode451_500.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeetCode951_1000.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeetCode1101_1150.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -85,6 +97,12 @@
     </ClCompile>
     <ClCompile Include="..\LeetCode\LeetCode551_600\560_Subarray_Sum_Equals_K.cpp">
       <Filter>Source Files\LeetCode551_600</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode1101_1150\1114_Print_in_Order.cpp">
+      <Filter>Source Files\LeetCode1101_1150</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode951_1000\981_Time_Based_Key-Value_Store.cpp">
+      <Filter>Source Files\LeetCode951_1000</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
