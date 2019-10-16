@@ -11,7 +11,7 @@ TreeNode* build(vector<int>& in, vector<int>& po, int is, int ie, int ps, int pe
     if (ps > pe) return nullptr;
 
     TreeNode* node = new TreeNode(po[pe]);
-    int np;
+    int np = 0;
     for (int i = is; i <= ie; ++i) {
         if (in[i] == po[pe]) {
             np = i;

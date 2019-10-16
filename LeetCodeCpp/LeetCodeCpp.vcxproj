@@ -165,6 +165,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\LeetCode\LeetCode101_150\106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp" />
+    <ClCompile Include="..\LeetCode\LeetCode101_150\116_Populating_Next_Right_Pointers_in_Each_Node.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode1101_1150\1114_Print_in_Order.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode151_200\167_Two_Sum_II-Input_array_is_sorted.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode201_250\209_Minimum_Size_Subarray_Sum.cpp" />

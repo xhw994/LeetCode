@@ -104,5 +104,8 @@
     <ClCompile Include="..\LeetCode\LeetCode951_1000\981_Time_Based_Key-Value_Store.cpp">
       <Filter>Source Files\LeetCode951_1000</Filter>
     </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode101_150\116_Populating_Next_Right_Pointers_in_Each_Node.cpp">
+      <Filter>Source Files\LeetCode101_150</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
