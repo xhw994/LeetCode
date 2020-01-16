@@ -37,6 +37,9 @@
     <Filter Include="Source Files\LeetCode1101_1150">
       <UniqueIdentifier>{3598c973-b894-42d9-961f-97f1e4b5b899}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\LeetCode1_50">
+      <UniqueIdentifier>{85036f5f-5ef9-4ae0-90e2-a7d8ecedf736}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LeetCode.h">
@@ -67,6 +70,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LeetCode1101_1150.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeetCode1_50.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -106,6 +112,18 @@
     </ClCompile>
     <ClCompile Include="..\LeetCode\LeetCode101_150\116_Populating_Next_Right_Pointers_in_Each_Node.cpp">
       <Filter>Source Files\LeetCode101_150</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode101_150\125_Valid_Palindrome.cpp">
+      <Filter>Source Files\LeetCode101_150</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode1_50\49_Group_Anagrams.cpp">
+      <Filter>Source Files\LeetCode1_50</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode1_50\5_Longest_Palindromic_Substring.cpp">
+      <Filter>Source Files\LeetCode1_50</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode201_250\202_Happy_Number.cpp">
+      <Filter>Source Files\LeetCode201_250</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

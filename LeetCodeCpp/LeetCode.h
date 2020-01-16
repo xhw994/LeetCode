@@ -1,5 +1,6 @@
 #pragma once
 
+#include "LeetCode1_50.h"
 #include "LeetCode51_100.h"
 #include "LeetCode101_150.h"
 #include "LeetCode151_200.h"

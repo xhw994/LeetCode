@@ -9,6 +9,9 @@ namespace LeetCode {
     class LeetCode201_250 {
     public:
         static int minSubArrayLen(int s, std::vector<int>& nums);
+        static bool isHappy(int n);
+    private:
+        static int happyHelper(int n);
     };
 }
 #endif // !_LEETCODE_201250
