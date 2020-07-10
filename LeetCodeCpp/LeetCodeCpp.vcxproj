@@ -170,6 +170,7 @@
     <ClCompile Include="..\LeetCode\LeetCode101_150\125_Valid_Palindrome.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode1101_1150\1114_Print_in_Order.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode151_200\167_Two_Sum_II-Input_array_is_sorted.cpp" />
+    <ClCompile Include="..\LeetCode\LeetCode151_200\169_Majority_Element.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode1_50\49_Group_Anagrams.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode1_50\5_Longest_Palindromic_Substring.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode201_250\202_Happy_Number.cpp" />

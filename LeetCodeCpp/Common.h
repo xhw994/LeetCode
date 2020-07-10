@@ -39,6 +39,7 @@ public:
 
 #ifndef _LEETCODE_FASTIO
 #define _LEETCODE_FASTIO
+#include <iostream>
 
 static const int fastIO = []() {  //读入外挂 std::ios::sync_with_stdio(false); 加快读入速度
     std::ios::sync_with_stdio(false);

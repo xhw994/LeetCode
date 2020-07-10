@@ -125,5 +125,8 @@
     <ClCompile Include="..\LeetCode\LeetCode201_250\202_Happy_Number.cpp">
       <Filter>Source Files\LeetCode201_250</Filter>
     </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode151_200\169_Majority_Element.cpp">
+      <Filter>Source Files\LeetCode151_200</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
