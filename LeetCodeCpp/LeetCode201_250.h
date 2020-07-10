@@ -3,8 +3,6 @@
 #ifndef _LEETCODE_201250
 #define _LEETCODE_201250
 
-#include <vector>
-
 namespace LeetCode {
     class LeetCode201_250 {
     public:
@@ -12,6 +10,8 @@ namespace LeetCode {
         static bool isHappy(int n);
     private:
         static int happyHelper(int n);
+        static bool canFinish(int numCourses, std::vector<std::vector<int>>& prerequisites);
+        static bool isCyclic(std::vector<std::vector<int>>& graph, std::vector<bool>& visit, std::vector<bool>& stack, int start);
     };
 }
 #endif // !_LEETCODE_201250

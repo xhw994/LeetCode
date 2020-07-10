@@ -1,7 +1,7 @@
 #pragma once
 
-#ifndef _LEETCODE_TREENODE
-#define _LEETCODE_TREENODE
+#ifndef _LEETCODE_COMMON
+#define _LEETCODE_COMMON
 
 struct TreeNode {
     int val;
@@ -10,10 +10,6 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
 
-#endif // !_LEETCODE_TREENODE
-
-#ifndef _LEETCODE_NODE
-#define _LEETCODE_NODE
 class Node {
 public:
     int val;
@@ -35,11 +31,6 @@ public:
         next = _next;
     }
 };
-#endif
-
-#ifndef _LEETCODE_FASTIO
-#define _LEETCODE_FASTIO
-#include <iostream>
 
 static const int fastIO = []() {  //读入外挂 std::ios::sync_with_stdio(false); 加快读入速度
     std::ios::sync_with_stdio(false);
@@ -47,4 +38,4 @@ static const int fastIO = []() {  //读入外挂 std::ios::sync_with_stdio(false
     return 0;
 }();
 
-#endif
+#endif // !_LEETCODE_COMMON
