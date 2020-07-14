@@ -9,4 +9,6 @@
 #include "LeetCode451_500.h"
 #include "LeetCode551_600.h"
 #include "LeetCode951_1000.h"
+#include "LeetCode1051_1100.h"
 #include "LeetCode1101_1150.h"
+#include "LeetCode1251_1300.h"

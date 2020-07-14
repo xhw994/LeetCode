@@ -8,6 +8,7 @@ namespace LeetCode {
     public:
         static int minSubArrayLen(int s, std::vector<int>& nums);
         static bool isHappy(int n);
+        static std::vector<int> findOrder(int numCourses, std::vector<std::vector<int>>& prerequisites);
     private:
         static int happyHelper(int n);
         static bool canFinish(int numCourses, std::vector<std::vector<int>>& prerequisites);

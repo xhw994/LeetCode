@@ -40,6 +40,12 @@
     <Filter Include="Source Files\LeetCode1_50">
       <UniqueIdentifier>{85036f5f-5ef9-4ae0-90e2-a7d8ecedf736}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\LeetCode1251_1300">
+      <UniqueIdentifier>{7e7cfaa0-4e39-45fc-ae53-bffa2c4341ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LeetCode1051_1100">
+      <UniqueIdentifier>{be003e58-084f-4c59-9ac9-973669ad240a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LeetCode.h">
@@ -73,6 +79,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LeetCode1_50.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeetCode1251_1300.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeetCode1051_1100.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -130,6 +142,18 @@
     </ClCompile>
     <ClCompile Include="..\LeetCode\LeetCode201_250\207_Course_Schedule.cpp">
       <Filter>Source Files\LeetCode201_250</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode201_250\210_Course_Schedule_II.cpp">
+      <Filter>Source Files\LeetCode201_250</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode1251_1300\1295_Find_Numbers_with_Even_Number_of_Digits.cpp">
+      <Filter>Source Files\LeetCode1251_1300</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode951_1000\977_Squares_of_a_Sorted_Array.cpp">
+      <Filter>Source Files\LeetCode951_1000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode1051_1100\1089_Duplicate_Zeros.cpp">
+      <Filter>Source Files\LeetCode1051_1100</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -2,8 +2,6 @@
 
 #ifndef _LEETCODE_51100
 #define _LEETCODE_51100
-#include <vector>
-#include <string>
 
 namespace LeetCode {
     class LeetCode51_100 {

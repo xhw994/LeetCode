@@ -3,10 +3,10 @@
 #ifndef _LEETCODE_9511000
 #define _LEETCODE_9511000
 
-#include <vector>
-
 namespace LeetCode {
     class LeetCode951_1000 {
+    public:
+        static std::vector<int> sortedSquares(std::vector<int>& A);
         class TimeMap;
     };
 }
