@@ -3,8 +3,6 @@
 #ifndef _LEETCODE_150
 #define _LEETCODE_150
 #include <vector>
-#include <string>
-#include "Common.h"
 
 namespace LeetCode {
     class LeetCode1_50 {

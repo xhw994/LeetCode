@@ -1,8 +1,6 @@
-#include <iostream>
 #include <vector>
-#include <unordered_map>
 #include <string>
-#include <algorithm>
+
 #include "../..//LeetCodeCpp/LeetCode1_50.h"
 
 using namespace std;

@@ -2,7 +2,7 @@
 
 #ifndef _LEETCODE_10511100
 #define _LEETCODE_10511100
-#include <vector>
+
 namespace LeetCode {
     class LeetCode1051_1100 {
     public:
