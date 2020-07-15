@@ -6,6 +6,7 @@
 #include "../..//LeetCodeCpp/Common.h"
 
 using namespace std;
+using namespace LeetCode;
 
 Node* LeetCode::LeetCode101_150::connect(Node* root) {
     connectHelper(root, nullptr);

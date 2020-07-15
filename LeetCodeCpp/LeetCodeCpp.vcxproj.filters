@@ -49,6 +49,9 @@
     <Filter Include="Source Files\LeetCode1301_1350">
       <UniqueIdentifier>{c6bc94c5-4fb2-4768-9d8b-2a4fa84fc382}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\LeetCode651_700">
+      <UniqueIdentifier>{b1201f4d-511b-463d-b733-406ebc12a7d4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LeetCode.h">
@@ -91,6 +94,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LeetCode1301_1350.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeetCode651_700.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -163,6 +169,12 @@
     </ClCompile>
     <ClCompile Include="..\LeetCode\LeetCode1301_1350\1346_Check_If_N_and_Its_Double_Exist.cpp">
       <Filter>Source Files\LeetCode1301_1350</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode651_700\700_Search_in_a_Binary_Search_Tree.cpp">
+      <Filter>Source Files\LeetCode651_700</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode51_100\96_Unique_Binary_Search_Trees.cpp">
+      <Filter>Source Files\LeetCode51_100</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

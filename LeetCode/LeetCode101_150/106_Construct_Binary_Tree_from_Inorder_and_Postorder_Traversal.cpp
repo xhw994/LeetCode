@@ -6,6 +6,7 @@
 #include "../..//LeetCodeCpp/Common.h"
 
 using namespace std;
+using namespace LeetCode;
 
 TreeNode* build(vector<int>& in, vector<int>& po, int is, int ie, int ps, int pe) {
     if (ps > pe) return nullptr;

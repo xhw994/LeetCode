@@ -9,9 +9,9 @@
 namespace LeetCode {
     class LeetCode101_150 {
     public:
-        static TreeNode* buildTree(std::vector<int>& inorder, std::vector<int>& postorder);
-        static Node* connect(Node* root);
-        static void connectHelper(Node* node, Node* next);
+        static LeetCode::TreeNode* buildTree(std::vector<int>& inorder, std::vector<int>& postorder);
+        static LeetCode::Node* connect(LeetCode::Node* root);
+        static void connectHelper(LeetCode::Node* node, LeetCode::Node* next);
         static bool isPalindrome(std::string s);
     };
 }

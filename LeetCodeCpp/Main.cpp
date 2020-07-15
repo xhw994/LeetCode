@@ -1,5 +1,5 @@
-#include <iostream>
 #include "LeetCode.h"
+
 using namespace std;
 using namespace LeetCode;
 
@@ -12,11 +12,5 @@ int main(int argc, char* argv[]) {
     vector<int> ret = LeetCode201_250::findOrder(n, pre);
     
     for (int n : ret) cout << n << " ";*/
-
-    vector<int> in = { 8,4,5,0,0,0,0,7 };
-    LeetCode1051_1100::duplicateZeros(in);
-    for (int i : in) {
-        cout << i << ' ';
-    }
     return 0;
 }
