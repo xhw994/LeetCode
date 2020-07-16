@@ -184,6 +184,7 @@
     <ClCompile Include="..\LeetCode\LeetCode201_250\207_Course_Schedule.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode201_250\209_Minimum_Size_Subarray_Sum.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode201_250\210_Course_Schedule_II.cpp" />
+    <ClCompile Include="..\LeetCode\LeetCode201_250\232_Implement_Queue_using_Stacks.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode451_500\485_Max_Consecutive_Ones.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode51_100\54_Spiral_Matrix.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode51_100\96_Unique_Binary_Search_Trees.cpp" />

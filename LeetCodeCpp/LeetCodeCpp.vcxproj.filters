@@ -176,5 +176,8 @@
     <ClCompile Include="..\LeetCode\LeetCode51_100\96_Unique_Binary_Search_Trees.cpp">
       <Filter>Source Files\LeetCode51_100</Filter>
     </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode201_250\232_Implement_Queue_using_Stacks.cpp">
+      <Filter>Source Files\LeetCode201_250</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
