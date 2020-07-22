@@ -178,9 +178,11 @@
     <ClCompile Include="..\LeetCode\LeetCode1301_1350\1346_Check_If_N_and_Its_Double_Exist.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode151_200\167_Two_Sum_II-Input_array_is_sorted.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode151_200\169_Majority_Element.cpp" />
+    <ClCompile Include="..\LeetCode\LeetCode1_50\15_3Sum.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode1_50\49_Group_Anagrams.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode1_50\5_Longest_Palindromic_Substring.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode201_250\202_Happy_Number.cpp" />
+    <ClCompile Include="..\LeetCode\LeetCode201_250\203_Remove_Linked_List_Elements.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode201_250\207_Course_Schedule.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode201_250\209_Minimum_Size_Subarray_Sum.cpp" />
     <ClCompile Include="..\LeetCode\LeetCode201_250\210_Course_Schedule_II.cpp" />

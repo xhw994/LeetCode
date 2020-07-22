@@ -35,6 +35,17 @@ namespace LeetCode {
         }
     };
 
+
+    // Definition for singly - linked list.
+    struct ListNode {
+        int val;
+        ListNode* next;
+        ListNode() : val(0), next(nullptr) {}
+        ListNode(int x) : val(x), next(nullptr) {}
+        ListNode(int x, ListNode* next) : val(x), next(next) {}
+    };
+
+
     static const int fastIO = []() {  //读入外挂 std::ios::sync_with_stdio(false); 加快读入速度
         std::ios_base::sync_with_stdio(false);
         std::cin.tie(nullptr);

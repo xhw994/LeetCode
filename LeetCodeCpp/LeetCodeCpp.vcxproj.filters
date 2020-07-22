@@ -179,5 +179,11 @@
     <ClCompile Include="..\LeetCode\LeetCode201_250\232_Implement_Queue_using_Stacks.cpp">
       <Filter>Source Files\LeetCode201_250</Filter>
     </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode201_250\203_Remove_Linked_List_Elements.cpp">
+      <Filter>Source Files\LeetCode201_250</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LeetCode\LeetCode1_50\15_3Sum.cpp">
+      <Filter>Source Files\LeetCode1_50</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
