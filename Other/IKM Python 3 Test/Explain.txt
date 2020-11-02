@@ -1,0 +1,11 @@
+For every point in the given matrix, a value '1' at index m, n indicates a touch happens somewhere in that row m, and the same touch or another one happend somewhere in that column n. The mission is to transform this matrix into a "potential touch matrix" consisting of characters 'I', 'N', 'P'. 'P' indicates there is definitely a touch happen at that index. 'I' means a touch might happen at that index, but may also be somewhere else; in both cases, they produce the same input matrix. 'N' means there is definitely not a touch that happens at that index. If such a "potential touch matrix" cannot be constructed, print "impossible", else print such matrix.
+
+For each point m,n in the matrix, see if there exists any '1's on the same row m and column n. There are 4 different cases:
+- m,n has value '0', but there are '1's in both m and n, the matrix is impossible to form.
+- m,n has value '0', and there are no '1's in both m or n, mark m,n as 'N'.
+- m,n has value '1', but there are '1's in m and '1's in n, mark m,n as 'I'.
+- m,n has value '1', and there are no '1's in both m or n, mark m,n as 'P'.
+
+For a given number n, calculates n factorial, remove all trailing zeros, and print the last three digits (call them "LTSD"). If there are less than 3 LTSD left, take all of them.
+
+Instead of calculating the n * (n-1)! and then take the LTSD, take the LTSD of (n-1)! and multiply by n, and then take the LTSD of that product will yield the same result. The tests pass on my local run but fail on the server end. I think my solution is correct.
